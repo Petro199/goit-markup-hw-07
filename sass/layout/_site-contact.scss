@@ -16,22 +16,27 @@
     justify-content: center;
 }
 
-.site-contact__item:not(:first-child) {
-    margin-left: 50px;
-}
+
 
 .link {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,&:hover{
+    color: var(--accent-color);
+    }
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
-}
+// .link:hover,
+// .link:focus {
+//     color: var(--accent-color);
+// }
 
 .site-contact__icon {
     margin-right: 10px;
     fill: currentColor;
+
+}
+.site-contact__item:not(:first-child) {
+    margin-left: 50px;
 }

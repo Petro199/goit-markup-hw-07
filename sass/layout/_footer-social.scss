@@ -30,9 +30,13 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,&:focus {
+    background-color: var(--accent-color);
+    }
 }
 
-.social-list__link--color:hover,
-.social-list__link--color:focus {
-    background-color: var(--accent-color);
-}
+// .social-list__link--color:hover,
+// .social-list__link--color:focus {
+//     background-color: var(--accent-color);
+// }

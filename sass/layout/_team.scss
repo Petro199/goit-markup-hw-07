@@ -53,10 +53,14 @@
     transition-property: fill, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,&:hover{
+        fill: var(--white-color);
+            background-color: var(--accent-color);
+    }
 }
 
-.social-list__link:hover,
-.social-list__link:focus {
-    fill: var(--white-color);
-    background-color: var(--accent-color);
-}
+// .social-list__link:hover,
+// .social-list__link:focus {
+//     fill: var(--white-color);
+//     background-color: var(--accent-color);
+// }

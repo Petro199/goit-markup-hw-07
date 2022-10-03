@@ -35,11 +35,6 @@
     margin-bottom: 9px;
 }
 
-.adress__link--color:hover,
-.adress__link--color:focus {
-    color: var(--accent-color);
-}
-
 .adress__link {
     color: rgba(255, 255, 255, 0.6);
     transition-property: color;
@@ -59,4 +54,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,&:focus {
+    color: var(--accent-color);
+    }
 }
+// .adress__link--color:hover,
+// .adress__link--color:focus {
+//     color: var(--accent-color);
+// }
